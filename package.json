@@ -1,0 +1,32 @@
+{
+  "name": "stripe-customer-portal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server",
+    "start:dev": "nodemon src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FGRibreau/stripe-customer-portal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FGRibreau/stripe-customer-portal/issues"
+  },
+  "homepage": "https://github.com/FGRibreau/stripe-customer-portal#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "@hapi/inert": "^6.0.5",
+    "@hapi/vision": "^6.1.0",
+    "ejs": "^3.1.6",
+    "nodemailer": "^6.7.2",
+    "stripe": "^8.200.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "nodemon": "^2.0.15"
+  }
+}
