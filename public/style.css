@@ -1,0 +1,9 @@
+label {
+    display: block;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
