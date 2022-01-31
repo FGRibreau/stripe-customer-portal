@@ -7,3 +7,7 @@
 /httpRequests/
 .idea
 node_modules
+
+.env
+.envrc
+.clever.json

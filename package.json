@@ -2,7 +2,7 @@
   "name": "stripe-customer-portal",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "start": "node src/server",
     "start:dev": "nodemon src/server"
@@ -11,8 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/FGRibreau/stripe-customer-portal.git"
   },
-  "author": "",
-  "license": "ISC",
+  "maintainers": [
+    "Benjamin Tourman",
+    "Francois-Guillaume Ribreau <npm@fgribreau.com> (http://fgribreau.com/)"
+  ],
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/FGRibreau/stripe-customer-portal/issues"
   },
