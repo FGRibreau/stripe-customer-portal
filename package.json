@@ -5,6 +5,7 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server",
+    "test": "echo 'make it fast then make it better'",
     "start:dev": "nodemon src/server"
   },
   "repository": {
@@ -19,6 +20,9 @@
   "bugs": {
     "url": "https://github.com/FGRibreau/stripe-customer-portal/issues"
   },
+  "engines": {
+    "node": "14.18.3"
+  },
   "homepage": "https://github.com/FGRibreau/stripe-customer-portal#readme",
   "dependencies": {
     "@hapi/hapi": "^20.2.1",
@@ -31,5 +35,8 @@
   "devDependencies": {
     "eslint": "^7.32.0",
     "nodemon": "^2.0.15"
+  },
+  "volta": {
+    "node": "14.18.3"
   }
 }
