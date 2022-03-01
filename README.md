@@ -3,4 +3,4 @@
 
 ## Configuration
 
-Configuration is done through environment variavbles, see [.env.dist](./.env.dist)
+Configuration is done through environment variables, see [config.js](./src/config.js), note that it's in [common-env](https://github.com/FGRibreau/common-env) format.

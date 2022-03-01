@@ -6,8 +6,14 @@
   "scripts": {
     "start": "node src/server",
     "test": "echo 'make it fast then make it better'",
-    "start:dev": "nodemon src/server"
+    "start:dev": "nodemon -e js,ejs,json src/server"
   },
+  "keywords": [
+    "stripe",
+    "saas",
+    "customer-portal",
+    "subscriptions"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FGRibreau/stripe-customer-portal.git"
@@ -28,13 +34,16 @@
     "@hapi/hapi": "^20.2.1",
     "@hapi/inert": "^6.0.5",
     "@hapi/vision": "^6.1.0",
+    "common-env": "^6.4.0",
     "ejs": "^3.1.6",
     "nodemailer": "^6.7.2",
     "stripe": "^8.200.0"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
-    "nodemon": "^2.0.15"
+    "eslint-config-prettier": "^8.4.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
   },
   "volta": {
     "node": "14.18.3"
